@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">    
+		function changeImage() {
+		    var image = document.getElementById('myImage');
+		    if (image.src.match("bulbon")) {
+		        image.src = "../RES/anger.gif";
+		    } else {
+		        image.src = "../RES/anger.gif";
+		    }
+		}
+		function changeImageR() {
+		    var image = document.getElementById('myImage');
+		    if (image.src.match("bulbon")) {
+		        image.src = "../RES/anger.png";
+		    } else {
+		        image.src = "../RES/anger.png";
+		    }
+		}
+    </script>
+</head>
+<body>
+	<header>	
+	  	<h1>
+	  		<img id="myImage" style="width: 64px; height: 64px; margin-left: 20px" src="../RES/anger.png" alt="" onmouseover="changeImage()" onmouseout="changeImageR()" > Veterinarias me enojas
+	  	</h1>
+	  	<nav>
+			<a href="../index.html"><span class="navu">Home</span></a>
+			<a href="../info/index.html"><span class="navu">Información</span></a>
+			<a href="index.php "><span class="navu">Registros</span></a>
+		</nav>
+	</header>
+</body>
+</html>

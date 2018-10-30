@@ -1,2 +1,4 @@
-# ejercicio-veterinaria
-Este es un pequeño proyecto que hice mientras aprendia php, hace uso de mysql y se ayuda en la generacion de reportes con fpdf
+# pagina-veterinaria
+Esta es una pagina de ejercicio con la que aprendi php en la universidad.
+
+Es nesesario agregar la libreria fpdf al directorio raiz para que pueda funcionar la generacion de reportes.
